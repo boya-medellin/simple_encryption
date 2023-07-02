@@ -4,23 +4,28 @@
 ## One Time Pad
 
   one_time_pad_encr(char*, char*) :
+
   one_time_pad_decr(char*, char*) :
+
   word_decryption(char*, char*) :
 
 
 ##  Rail Fence
 
   rail_fence_encr(char *) :
+
   rail_fence_decr(char *) :
 
 ##  Beaufort
 
   beaufort_encr(char *, char *) :
+
   beaufort_decr(char *, char *) :
 
 ##  Affine
   
   affine_encr(char*, int, int, int) :
+
   affine_decr(char*, int, int, int) :
 
 ##  Feistel
